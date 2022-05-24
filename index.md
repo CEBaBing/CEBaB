@@ -37,7 +37,7 @@ Eldar David Abraham, [Karel D'Oosterlink](https://www.kareldoosterlinck.com/), [
 
 ## Dataset files
 
-We host our dataset at [CEBaB-Dataset](https://github.com/CEBaBing/CEBaB-Dataset). Raw files can be downloaded from [CEBaB-v1.0.zip](https://github.com/CEBaBing/CEBaB-Dataset/blob/main/CEBaB-v1.0.zip).
+Dataset files can be downloaded from [CEBaB-v1.0.zip](CEBaB-v1.0.zip). **Note that we recommend you use [HuggingFace Datasets](https://huggingface.co/datasets/CEBaB/CEBaB) library to use our dataset. See below for a 1-linear data loading.**
 
 The dataset consists of train_exclusive/train_inclusive/dev/test splits:
 
@@ -50,7 +50,7 @@ The dataset consists of train_exclusive/train_inclusive/dev/test splits:
 
 The [Datasheet](https://arxiv.org/abs/xxxx.xxxxx) for our dataset:
 
-* [cebab_datasheet.md](https://github.com/CEBaBing/CEBaB-Dataset/blob/main/cebab_datasheet.md)
+* [cebab_datasheet.md](cebab_datasheet.md)
 
 ## Quick start
 
@@ -67,7 +67,7 @@ from datasets import load_dataset
 CEBaB = load_dataset("CEBaB/CEBaB")
 ```
 
-### Local Files
+### Local Files (Not Recommended)
 
 This function can be used to load any subset of the raw `*.json` files:
 
@@ -220,7 +220,7 @@ Here is one example,
 
 ## Code
 
-We host our analyses code at [CEBaB-Code](https://github.com/CEBaBing/CEBaB-Code).
+We host our analyses code at our [code foler](code).
 
 
 ## License
