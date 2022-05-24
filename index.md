@@ -220,7 +220,7 @@ Here is one example,
 
 ## Code
 
-We host our analyses code at our [code foler](code).
+We host our analyses code at our [code foler](https://github.com/CEBaBing/CEBaB).
 
 
 ## License
