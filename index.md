@@ -12,8 +12,8 @@
 <p></p>
 
 ## What is <img src="https://i.ibb.co/d5bTqrt/Kebab-icon.png" width="40" height="40"> CEBaB?
-:white_check_mark: It is an English-language benchmark task that supports a wide range of **causal analyses** due to its very rich counterfactual structure.   
-:white_check_mark: It is a human-validated **Aspect-based Sentiment Analysis (ABSA) benchmark**.   
+✅ It is an English-language benchmark task that supports a wide range of **causal analyses** due to its very rich counterfactual structure.   
+✅ It is a human-validated **Aspect-based Sentiment Analysis (ABSA) benchmark**.   
 
 
 ## Contents
