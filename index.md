@@ -74,14 +74,16 @@ This function can be used to load any subset of the raw `*.json` files:
 ```python
 import json
 
-def load_dataset(*src_filenames):
-    data = []
-    for filename in src_filenames:
-        with open(filename) as f:
-            for line in f:
-                d = json.loads(line)
-                data.append(d)
-    return data
+def load_split(split_path):
+
+    with open(split_path) as f:
+        data = json.load(f)
+    for d in data:
+        # serialize nested dict.
+        for k, v in d.items():
+            if isinstance(v, dict):
+                d[k] = json.dumps(v)
+    return data 
 ```
 
 ## Data format
