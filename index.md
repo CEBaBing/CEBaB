@@ -25,15 +25,16 @@
 
 [Eldar David Abraham](https://eldarab.github.io/), [Karel D'Oosterlink](https://www.kareldoosterlinck.com/), [Amir Feder](https://amirfeder.github.io/), [Yair Gat](https://yairgat.github.io/), [Atticus Geiger](https://atticusg.github.io/), [Christopher Potts](http://web.stanford.edu/~cgpotts/), [Roi Reichart](https://iew.technion.ac.il/~roiri/), [Zhengxuan Wu](http://zen-wu.social). 2022. [CEBaB: Estimating the causal effects of real-world concepts on NLP model behavior](https://arxiv.org/abs/2205.14140). Ms., Stanford University, Technion -- Israel Institute of Technology, and Ghent University.
 
+{% raw %}
 ```stex
-@article{abraham-etal-2022-cebab,
-    title={CEBaB: Estimating the causal effects of real-world concepts on NLP model behavior},
-    author={Abraham, Eldar David and D'Oosterlinck, Karel and Feder, Amir and Gat, Yair and Geiger, Atticus and Potts, Christopher and Reichart, Roi and Wu, Zhengxuan},
-    journal={arXiv preprint arXiv:2205.14140},
+@unpublished{abraham-etal-2022-cebab,
+    title={{CEBaB}: Estimating the Causal Effects of Real-World Concepts on {NLP} Model Behavior},
+    author={Abraham, Eldar David and D'Oosterlinck, Karel and Feder, Amir and Gat, Yair Ori and Geiger, Atticus and Potts, Christopher and Reichart, Roi and Wu, Zhengxuan},
+    note={arXiv:2205.14140},
     url={https://arxiv.org/abs/2205.14140},
-    year={2022}
-}
+    year={2022}}
 ```
+{% endraw %}
 
 ## Dataset files
 
@@ -74,15 +75,10 @@ This function can be used to load any subset of the raw `*.json` files:
 ```python
 import json
 
-def load_split(split_path):
-    with open(split_path) as f:
+def load_split(splitname):
+    with open(splitname) as f:
         data = json.load(f)
-    for d in data:
-        # serialize nested dict.
-        for k, v in d.items():
-            if isinstance(v, dict):
-                d[k] = json.dumps(v)
-    return data 
+    return data
 ```
 
 ## Data format
