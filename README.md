@@ -75,7 +75,6 @@ This function can be used to load any subset of the raw `*.json` files:
 import json
 
 def load_split(split_path):
-
     with open(split_path) as f:
         data = json.load(f)
     for d in data:
