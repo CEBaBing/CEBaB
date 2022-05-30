@@ -23,7 +23,7 @@
 
 ## Citation
 
-[Eldar David Abraham](https://eldarab.github.io/), [Karel D'Oosterlink](https://www.kareldoosterlinck.com/), [Amir Feder](https://amirfeder.github.io/), [Yair Gat](https://yairgat.github.io/), [Atticus Geiger](https://atticusg.github.io/), [Christopher Potts](http://web.stanford.edu/~cgpotts/), [Roi Reichart](https://iew.technion.ac.il/~roiri/), [Zhengxuan Wu](http://zen-wu.social). 2022. *CEBaB: Estimating the causal effects of real-world concepts on NLP model behavior*. Ms., Stanford University, Technion -- Israel Institute of Technology, and Ghent University.
+[Eldar David Abraham](https://eldarab.github.io/), [Karel D'Oosterlink](https://www.kareldoosterlinck.com/), [Amir Feder](https://amirfeder.github.io/), [Yair Gat](https://yairgat.github.io/), [Atticus Geiger](https://atticusg.github.io/), [Christopher Potts](http://web.stanford.edu/~cgpotts/), [Roi Reichart](https://iew.technion.ac.il/~roiri/), [Zhengxuan Wu](http://zen-wu.social). 2022. [CEBaB: Estimating the causal effects of real-world concepts on NLP model behavior](https://arxiv.org/abs/2205.14140). Ms., Stanford University, Technion -- Israel Institute of Technology, and Ghent University.
 
 ```stex
 @article{abraham-etal-2022-cebab,
