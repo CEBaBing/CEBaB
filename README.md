@@ -36,12 +36,15 @@
 
 ## Dataset files
 
-Dataset files can be downloaded from [CEBaB-v1.0.zip](CEBaB-v1.0.zip). **Note that we recommend you use [HuggingFace Datasets](https://huggingface.co/datasets/CEBaB/CEBaB) library to use our dataset. See below for a 1-linear data loading.**
+Dataset files can be downloaded from [CEBaB-v1.1.zip](CEBaB-v1.1.zip). Our v1.1 differs from v1.0 only in that v1.1 has proper unique ids our examples and corrects a bug that led to some non-unique ids in the previous version. There are no changes to other critical fields.
+
+**Note that we recommend you use [HuggingFace Datasets](https://huggingface.co/datasets/CEBaB/CEBaB) library to use our dataset. See below for a 1-linear data loading.**
 
 The dataset consists of train_exclusive/train_inclusive/dev/test splits:
 
 * `train_exclusive.json`
 * `train_inclusive.json`
+* `train_observational.json`
 * `dev.json`
 * `test.json`
 
