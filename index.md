@@ -224,7 +224,7 @@ We host our analyses code at our [code folder](https://github.com/CEBaBing/CEBaB
 
 ## Leaderboard
 
-This section contains the leaderboard for some of the best scores obtained on CEBaB. To add scores please consider a pull request.
+This section contains the leaderboard for some of the best scores obtained on CEBaB as a five-class sentiment classification task. To add scores please consider a pull request.
 
 Model Architecture | Metric | Approx | S-Learner | INLP
 --- | --- | --- | --- | --- 
