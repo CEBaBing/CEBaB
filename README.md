@@ -220,6 +220,24 @@ Here is one example,
 
 We host our analyses code at our [code foler](https://github.com/CEBaBing/CEBaB).
 
+## Leaderboard
+
+This section contains the leaderboard for some of the best scores obtained on CEBaB as a five-class sentiment classification task. To add scores please consider a pull request.
+
+Model Architecture | Metric | Approx | S-Learner | INLP
+--- | --- | --- | --- | --- 
+BERT | L2 | 0.81 (± 0.01) | 0.74 (± 0.02) | 0.80 (± 0.02)
+BERT | COS | 0.61 (± 0.01) | 0.63 (± 0.01) | 0.59 (± 0.03)
+BERT | NormDiff | 0.44 (± 0.01) | 0.54 (± 0.02) | 0.73 (± 0.02)
+RoBERTa | L2 | 0.83 (± 0.01) | 0.78 (± 0.01) | 0.84 (± 0.01)
+RoBERTa | COS | 0.60 (± 0.01) | 0.64 (± 0.01) | 0.58 (± 0.01)
+RoBERTa | NormDiff | 0.45 (± 0.00) | 0.59 (± 0.01) | 0.81 (± 0.01)
+GPT-2 | L2 | 0.72 (± 0.02) | 0.60 (± 0.02) | 0.72 (± 0.01)
+GPT-2 | COS | 0.59 (± 0.01) | 0.59 (± 0.01) | 1.00 (± 0.00)
+GPT-2 | NormDiff | 0.41 (± 0.01) | 0.40 (± 0.01) | 0.58 (± 0.03)
+LSTM | L2 | 0.86 (± 0.01) | 0.73 (± 0.01) | 0.79 (± 0.01)
+LSTM | COS | 0.64 (± 0.01) | 0.64 (± 0.01) | 0.74 (± 0.02)
+LSTM | NormDiff | 0.50 (± 0.01) | 0.53 (± 0.01) | 0.60 (± 0.01)
 
 ## License
 
